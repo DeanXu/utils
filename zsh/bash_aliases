@@ -1,0 +1,11 @@
+alias l="ls -al"
+alias tmuxa="tmux attach"
+alias cdtr="cd ~/workspace/trunk"
+alias rund="cd ~/workspace/trunk/japp-diy/zhubao-webx; mvn tomcat:run -DRUNTIME_ENV=dev"
+alias runt="cd ~/workspace/trunk/japp-diy/zhubao-webx; mvn tomcat:run -DRUNTIME_ENV=test"
+alias runat="cd ~/workspace/trunk/japp-diy/zhubao-admin; mvn tomcat:run -DRUNTIME_ENV=test -Dmaven.tomcat.port=9090"
+alias runad="cd ~/workspace/trunk/japp-diy/zhubao-admin; mvn tomcat:run -DRUNTIME_ENV=dev"
+alias build="cd ~/workspace/trunk/japp-diy/zhubao-base; mvn install"
+alias towork="cd ~/workspace/trunk/japp-diy/zhubao-webx"
+alias timeupdate="sudo ntpdate ntp.nasa.gov"
+alias sudo=' sudo '

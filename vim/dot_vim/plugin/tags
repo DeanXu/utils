@@ -1,0 +1,139 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-Down>	minibufexpl.vim	/^  noremap <C-Down>  <C-W>j$/;"	m
+<C-H>	minibufexpl.vim	/^  noremap <C-H> <C-W>h$/;"	m
+<C-J>	minibufexpl.vim	/^  noremap <C-J> <C-W>j$/;"	m
+<C-K>	minibufexpl.vim	/^  noremap <C-K> <C-W>k$/;"	m
+<C-L>	minibufexpl.vim	/^  noremap <C-L> <C-W>l$/;"	m
+<C-Left>	minibufexpl.vim	/^  noremap <C-Left>  <C-W>h$/;"	m
+<C-Right>	minibufexpl.vim	/^  noremap <C-Right> <C-W>l$/;"	m
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> :call <SID>CycleBuffer(0)<CR>:<BS>$/;"	m
+<C-S-TAB>	minibufexpl.vim	/^  noremap <C-S-TAB> <C-W>W$/;"	m
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   :call <SID>CycleBuffer(1)<CR>:<BS>$/;"	m
+<C-TAB>	minibufexpl.vim	/^  noremap <C-TAB>   <C-W>w$/;"	m
+<C-Up>	minibufexpl.vim	/^  noremap <C-Up>    <C-W>k$/;"	m
+<Leader>mbc	minibufexpl.vim	/^  map <unique> <Leader>mbc <Plug>CMiniBufExplorer$/;"	m
+<Leader>mbe	minibufexpl.vim	/^  map <unique> <Leader>mbe <Plug>MiniBufExplorer$/;"	m
+<Leader>mbt	minibufexpl.vim	/^  map <unique> <Leader>mbt <Plug>TMiniBufExplorer$/;"	m
+<Leader>mbu	minibufexpl.vim	/^  map <unique> <Leader>mbu <Plug>UMiniBufExplorer$/;"	m
+<Plug>CMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>CMiniBufExplorer :call <SID>StopExplorer(1)<CR>:<BS>$/;"	m
+<Plug>MiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>MiniBufExplorer  :call <SID>StartExplorer(1, -1)<CR>:<BS>$/;"	m
+<Plug>TMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>TMiniBufExplorer :call <SID>ToggleExplorer()<CR>:<BS>$/;"	m
+<Plug>UMiniBufExplorer	minibufexpl.vim	/^noremap <unique> <script> <Plug>UMiniBufExplorer :call <SID>AutoUpdate(-1)<CR>:<BS>$/;"	m
+AutoUpdate	minibufexpl.vim	/^function! <SID>AutoUpdate(delBufNum)$/;"	f
+BuildBufferList	minibufexpl.vim	/^function! <SID>BuildBufferList(delBufNum, updateBufList)$/;"	f
+CMiniBufExplorer	minibufexpl.vim	/^  command! CMiniBufExplorer  call <SID>StopExplorer(1)$/;"	c
+CodeComplete	code_complete.vim	/^function! CodeComplete()$/;"	f
+CodeCompleteStart	code_complete.vim	/^function! CodeCompleteStart()$/;"	f
+CodeCompleteStop	code_complete.vim	/^function! CodeCompleteStop()$/;"	f
+CycleBuffer	minibufexpl.vim	/^function! <SID>CycleBuffer(forward)$/;"	f
+DEBUG	minibufexpl.vim	/^function! <SID>DEBUG(msg, level)$/;"	f
+DisplayBuffers	minibufexpl.vim	/^function! <SID>DisplayBuffers(delBufNum)$/;"	f
+ExpandTemplate	code_complete.vim	/^function! ExpandTemplate(cword)$/;"	f
+FindCreateWindow	minibufexpl.vim	/^function! <SID>FindCreateWindow(bufName, forceEdge, isExplorer, doDebug)$/;"	f
+FindWindow	minibufexpl.vim	/^function! <SID>FindWindow(bufName, doDebug)$/;"	f
+FunctionComplete	code_complete.vim	/^function! FunctionComplete(fun)$/;"	f
+GetFileName	code_complete.vim	/^function! GetFileName()$/;"	f
+GetSelectedBuffer	minibufexpl.vim	/^function! <SID>GetSelectedBuffer()$/;"	f
+HasEligibleBuffers	minibufexpl.vim	/^function! <SID>HasEligibleBuffers(delBufNum)$/;"	f
+MBEClick	minibufexpl.vim	/^function! s:MBEClick()$/;"	f
+MBEDeleteBuffer	minibufexpl.vim	/^function! <SID>MBEDeleteBuffer()$/;"	f
+MBEDoubleClick	minibufexpl.vim	/^function! s:MBEDoubleClick()$/;"	f
+MBESelectBuffer	minibufexpl.vim	/^function! <SID>MBESelectBuffer()$/;"	f
+MBEbn	minibufexpl.vim	/^  command! MBEbn call <SID>CycleBuffer(1)$/;"	c
+MBEbp	minibufexpl.vim	/^  command! MBEbp call <SID>CycleBuffer(0)$/;"	c
+Max	minibufexpl.vim	/^function! <SID>Max(argOne, argTwo)$/;"	f
+MiniBufExplorer	minibufexpl.vim	/^  command! MiniBufExplorer  call <SID>StartExplorer(1, -1)$/;"	c
+MiniBufExplorer	minibufexpl.vim	/^augroup MiniBufExplorer$/;"	a
+NERDTree	NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeAddKeyMap	NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddSubmenu	NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	NERD_tree.vim	/^command! -n=0 -bar NERDTreeCWD call NERDTreeCWD()$/;"	c
+NERDTreeCWD	NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeClose	NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call nerdtree#closeTreeIfOpen()$/;"	c
+NERDTreeFind	NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call nerdtree#findAndRevealPath()$/;"	c
+NERDTreeFocus	NERD_tree.vim	/^command! -n=0 -bar NERDTreeFocus call NERDTreeFocus()$/;"	c
+NERDTreeFocus	NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeFromBookmark	NERD_tree.vim	/^command! -n=1 -complete=customlist,nerdtree#completeBookmarks -bar NERDTreeFromBookmark call g:NERDTreeCreator.CreatePrimary('<args>')$/;"	c
+NERDTreeHijackNetrw	NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call g:NERDTreeCreator.CreateMirror()$/;"	c
+NERDTreeRender	NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeToggle	NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call g:NERDTreeCreator.TogglePrimary('<args>')$/;"	c
+ResizeWindow	minibufexpl.vim	/^function! <SID>ResizeWindow()$/;"	f
+ShowBuffers	minibufexpl.vim	/^function! <SID>ShowBuffers(delBufNum)$/;"	f
+StartExplorer	minibufexpl.vim	/^function! <SID>StartExplorer(sticky, delBufNum)$/;"	f
+StopExplorer	minibufexpl.vim	/^function! <SID>StopExplorer(sticky)$/;"	f
+SwitchRegion	code_complete.vim	/^function! SwitchRegion()$/;"	f
+TMiniBufExplorer	minibufexpl.vim	/^  command! TMiniBufExplorer  call <SID>ToggleExplorer()$/;"	c
+ToggleExplorer	minibufexpl.vim	/^function! <SID>ToggleExplorer()$/;"	f
+UMiniBufExplorer	minibufexpl.vim	/^  command! UMiniBufExplorer  call <SID>AutoUpdate(-1)$/;"	c
+g:NERDTreeIgnore	NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeSortOrder	NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:completekey	code_complete.vim	/^    let g:completekey = "<tab>"   "hotkey$/;"	v
+g:miniBufExplBufList	minibufexpl.vim	/^  let g:miniBufExplBufList = ''$/;"	v
+g:miniBufExplDoneClickSave	minibufexpl.vim	/^    let  g:miniBufExplDoneClickSave = 1$/;"	v
+g:miniBufExplForceDisplay	minibufexpl.vim	/^  let g:miniBufExplForceDisplay = 0$/;"	v
+g:miniBufExplForceSyntaxEnable	minibufexpl.vim	/^  let g:miniBufExplForceSyntaxEnable = 0$/;"	v
+g:miniBufExplInAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplInAutoUpdate = 0$/;"	v
+g:miniBufExplMapCTabSwitchBufs	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchBufs = 0$/;"	v
+g:miniBufExplMapCTabSwitchWindows	minibufexpl.vim	/^  let g:miniBufExplMapCTabSwitchWindows = 0$/;"	v
+g:miniBufExplMapWindowNav	minibufexpl.vim	/^  let g:miniBufExplMapWindowNav = 0$/;"	v
+g:miniBufExplMapWindowNavArrows	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavArrows = 0$/;"	v
+g:miniBufExplMapWindowNavVim	minibufexpl.vim	/^  let g:miniBufExplMapWindowNavVim = 0$/;"	v
+g:miniBufExplMaxHeight	minibufexpl.vim	/^  let g:miniBufExplMaxHeight = 0$/;"	v
+g:miniBufExplMaxSize	minibufexpl.vim	/^  let g:miniBufExplMaxSize = g:miniBufExplMaxHeight$/;"	v
+g:miniBufExplMinHeight	minibufexpl.vim	/^  let g:miniBufExplMinHeight = 1$/;"	v
+g:miniBufExplMinSize	minibufexpl.vim	/^  let g:miniBufExplMinSize = g:miniBufExplMinHeight$/;"	v
+g:miniBufExplModSelTarget	minibufexpl.vim	/^  let g:miniBufExplModSelTarget = 0$/;"	v
+g:miniBufExplSplitBelow	minibufexpl.vim	/^  let g:miniBufExplSplitBelow = &splitbelow$/;"	v
+g:miniBufExplSplitToEdge	minibufexpl.vim	/^  let g:miniBufExplSplitToEdge = 1$/;"	v
+g:miniBufExplTabWrap	minibufexpl.vim	/^  let g:miniBufExplTabWrap = 0$/;"	v
+g:miniBufExplUseSingleClick	minibufexpl.vim	/^  let g:miniBufExplUseSingleClick = 0$/;"	v
+g:miniBufExplVSplit	minibufexpl.vim	/^  let g:miniBufExplVSplit = 0$/;"	v
+g:miniBufExplorerAutoUpdate	minibufexpl.vim	/^  let g:miniBufExplorerAutoUpdate = 0$/;"	v
+g:miniBufExplorerDebugLevel	minibufexpl.vim	/^  let g:miniBufExplorerDebugLevel = 0 $/;"	v
+g:miniBufExplorerDebugMode	minibufexpl.vim	/^  let g:miniBufExplorerDebugMode = 3 $/;"	v
+g:miniBufExplorerDebugOutput	minibufexpl.vim	/^  let g:miniBufExplorerDebugOutput = ''$/;"	v
+g:miniBufExplorerMoreThanOne	minibufexpl.vim	/^  let g:miniBufExplorerMoreThanOne = 2$/;"	v
+g:re	code_complete.vim	/^    let g:re = '>`'    "region stop$/;"	v
+g:rs	code_complete.vim	/^    let g:rs = '`<'    "region start$/;"	v
+g:template	code_complete.vim	/^let g:template = {}$/;"	v
+g:template	code_complete.vim	/^let g:template['_'] = {}$/;"	v
+g:template	code_complete.vim	/^let g:template['_']['xt'] = "\\<c-r>=strftime(\\"%Y-%m-%d %H:%M:%S\\")\\<cr>"$/;"	v
+g:template	code_complete.vim	/^let g:template['c'] = {}$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['cc'] = "\/*  *\/\\<left>\\<left>\\<left>"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['cd'] = "\/**<  *\/\\<left>\\<left>\\<left>"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['de'] = "#define     "$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['ff'] = "#ifndef  \\<c-r>=GetFileName()\\<cr>\\<CR>#define  \\<c-r>=GetFileName()\\<cr>".$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['for'] = "for( ".g:rs."...".g:re." ; ".g:rs."...".g:re." ; ".g:rs."...".g:re." )\\<cr>{\\<cr>".$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['if'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['ife'] = "if( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>} else\\<cr>{\\<cr>".g:rs."...".$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['in'] = "#include    \\"\\"\\<left>"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['is'] = "#include  <>\\<left>"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['main'] = "int main(int argc, char \\*argv\\[\\])\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['switch'] = "switch ( ".g:rs."...".g:re." )\\<cr>{\\<cr>case ".g:rs."...".g:re." :\\<cr>break;\\<cr>case ".$/;"	v
+g:template	code_complete.vim	/^let g:template['c']['while'] = "while( ".g:rs."...".g:re." )\\<cr>{\\<cr>".g:rs."...".g:re."\\<cr>}"$/;"	v
+g:template	code_complete.vim	/^let g:template['cpp'] = g:template['c']$/;"	v
+g:user_defined_snippets	code_complete.vim	/^    let g:user_defined_snippets = "$VIMRUNTIME\/plugin\/my_snippets.vim"$/;"	v
+initVariable	NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+loaded_minibufexplorer	minibufexpl.vim	/^let loaded_minibufexplorer = 1$/;"	v
+loaded_nerd_tree	NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+s:clickmap	minibufexpl.vim	/^  let s:clickmap = ':if bufname("%") == "-MiniBufExplorer-" <bar> call <SID>MBEClick() <bar> endif <CR>'$/;"	v
+s:debugIndex	minibufexpl.vim	/^let s:debugIndex = 0 $/;"	v
+s:doappend	code_complete.vim	/^let s:doappend = 1$/;"	v
+s:expanded	code_complete.vim	/^let s:expanded = 0  "in case of inserting char after expand$/;"	v
+s:jumppos	code_complete.vim	/^let s:jumppos = -1$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = ':nnoremap <silent> <LEFTMOUSE> <LEFTMOUSE>'$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = s:m . s:clickmap$/;"	v
+s:m	minibufexpl.vim	/^    let  s:m = s:m . substitute(substitute(maparg('<LEFTMOUSE>', 'n'), '|', '<bar>', 'g'), '\\c^<LEFTMOUSE>', '', '')$/;"	v
+s:maxTabWidth	minibufexpl.vim	/^let s:maxTabWidth = 0 $/;"	v
+s:old_cpo	NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:signature_list	code_complete.vim	/^let s:signature_list = []$/;"	v
