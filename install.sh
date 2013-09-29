@@ -7,7 +7,7 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 
 cp vim/vimrc ~/.vimrc
-cp vim/dot_vim ~/.vim
+cp -r vim/dot_vim ~/.vim
 cp vim/distinguished.vim /usr/share/vim/vim??/colors/distinguished.vim
 
 
