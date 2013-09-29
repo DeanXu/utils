@@ -8,9 +8,11 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 cp vim/vimrc ~/.vimrc
 cp -r vim/dot_vim ~/.vim
-cp vim/distinguished.vim /usr/share/vim/vim??/colors/distinguished.vim
+cp vim/distinguished.vim /usr/share/vim/vim73/colors/distinguished.vim
 
 
 cp zsh/zshrc ~/.zshrc
 cp zsh/bash_aliases  ~/.bash_aliases 
 
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
