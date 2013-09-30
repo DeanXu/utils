@@ -1,0 +1,21 @@
+apt-get update
+apt-get install -y openssh-server
+apt-get install -y git
+mkdir workspace
+mkdir downloads
+cd downloads
+git clone https://github.com/DeanXu/utils.git
+cd utils
+sudo sh install.sh
+sudo chsh -s /bin/zsh dean
+
+mkdir ~/.ssh
+cd ~/.ssh
+ssh-keygen -t rsa -C "xdx158@gmail.com"
+vi config
+    Host github
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/key/git
+
+mv id_rsa key/git
